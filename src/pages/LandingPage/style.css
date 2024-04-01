@@ -1,0 +1,51 @@
+.search {
+  position: relative;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-right: 8px;
+  margin-left: 0;
+  width: 100%;
+}
+
+.search:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.search-icon-wrapper {
+  padding: 8px 16px;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  color: inherit;
+  padding: 8px 16px;
+  padding-left: calc(1em + 64px);
+  width: 100%;
+  transition: width 0.3s ease;
+}
+
+.app-bar {
+  background-color: #1976d2;
+  display: flex;
+  align-items: center;
+}
+
+.app-bar-title {
+  margin-right: auto;
+  color: white;
+}
+
+.hide-xs,
+.show-xs {
+  display: flex; /* Ensures that the mail, notification, and account icons remain in a row */
+  align-items: center; /* Aligns the items vertically */
+}
+
+.hide-xs button,
+.show-xs button {
+  margin-left: 8px; /* Adds some space between the icons */
+}
